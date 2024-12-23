@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Rubik+Wet+Paint&family=Style+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+
+}
+
+.navSection{
+   display: flex;
+   height: 60px;
+   background-color: lightblue;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 45px;
+   font-size: large;
+   
+}
+.sidebarSection{
+    border: 1px solid blanchedalmond;
+    width: 100%;
+    max-width: 15%;
+    height: 88vh;
+    background-color:blanchedalmond;
+}
+.sidebarSection ul li{
+    list-style-type: none;
+    padding-top: 60px;
+    font-weight: bolder;
+}
+.collection{
+    display: flex;
+}
+.formSection{
+    width: 100%;
+    max-width: 85%;
+    padding: 70px 30%;
+    margin-left: 200px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 1px solid silver;
+    -webkit-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+}
+.registerForm{
+    border: 1px solid silver;
+    width: 50%;
+    height: 40%;
+    margin-left: 170px;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+}
+.inputField{
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+}
+.buttonSection{
+    margin-left: 100px;
+    height: 35px;
+    width: 90px;
+    background-color: #153b50;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+/* All Products */
+.product-table{
+    border: 1px solid lightcoral;
+    width: 80vw;
+}
+.product-table tr{
+    border: 2px solid silver;
+}
+.product-table td{
+    border: 2px solid silver;
+    width: 100%;
+    padding: 8px;
+}
+.product-image{
+    height: 50px;
+    width: 50px;
+}
+/* Page Not found Section */
+.not-foundSection{
+    font-size: 20px;
+    text-align: center;
+
+}
+/* add firm page section */
+.addfirmSection{
+    border: 1px solid silver;
+    margin-left: 220px;
+    margin-top: 50px;
+    width: 80%; 
+    height: 80%;
+    padding-left: 70px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+}
+/* add product section */
+.addproductSection{
+    border: 1px solid silver;
+    margin-left: 220px;
+    margin-top: 30px;
+    width: 80%; 
+    height: 93%;
+    padding-left: 70px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 31px 0px rgba(0,0,0,0.75);
+}
